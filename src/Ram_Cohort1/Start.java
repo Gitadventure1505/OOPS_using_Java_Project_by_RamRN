@@ -20,15 +20,13 @@ public class Start
 		System.out.println("*****************");
 		System.out.println();
 		System.out.println();	
-		//public ArrayList<>
 	}
-	//workFlow WS = new workFlow();
-	public static void main(String[] args) throws IOException 
+	
+	public static void main(String[] args) throws IOException, InterruptedException 
 	{
 		  new Start();
 		  new workFlow().Execution();
-		  
-		
+		  	
 	}
 	
 
